@@ -1,0 +1,13 @@
+"D:\IAR__ARM\arm\bin\armproc.dll" 
+
+"D:\IAR__ARM\arm\bin\armsim2.dll" 
+
+"C:\Users\17679\Desktop\KV58\1.龙邱KV58 LED例程\Project\iar\debug\demo.out" 
+
+--plugin="D:\IAR__ARM\arm\bin\armbat.dll" 
+
+--device_macro="D:\IAR__ARM\arm\config\debugger\NXP\KV5x.dmac" 
+
+
+
+

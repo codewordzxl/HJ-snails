@@ -1,0 +1,755 @@
+###############################################################################
+#
+# IAR ELF Linker V8.32.1.169/W32 for ARM                  14/Jan/2020  16:33:42
+# Copyright 2007-2018 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\demo.out
+#    Map file     =  
+#        C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\list\demo.map
+#    Command line =  
+#        -f C:\Users\17679\AppData\Local\Temp\EWB739.tmp
+#        ("C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\board.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\clock_config.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_adc16.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_aoi.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_assert.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_clock.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_cmp.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_common.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_crc.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_dac.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_debug_console.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_dmamux.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_dspi.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_dspi_edma.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_edma.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_enc.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_enet.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_ewm.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_flexbus.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_flexcan.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_flexcan_edma.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_ftfx_cache.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_ftfx_controller.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_ftfx_flash.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_ftfx_flexnvm.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_ftm.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_gpio.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_hsadc.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_i2c.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_i2c_edma.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_llwu.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_lptmr.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_pdb.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_pit.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_pmc.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_pwm.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_rcm.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_sim.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_smc.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_str.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_sysmpu.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_trng.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_uart.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_uart_edma.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_wdog.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_xbara.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\fsl_xbarb.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\generic_list.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\IRQ_Handler.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\LQ_LED.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\main.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\pin_mux.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\serial_manager.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\serial_port_uart.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\startup_MKV58F24.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\system_MKV58F24.o"
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\Obj\uart_adapter.o" --redirect
+#        _Scanf=_ScanfSmallNoMb --no_out_extension -o
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\demo.out" --map
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar\debug\list\demo.map" --config
+#        "C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+#        LEDÀý³Ì\Project\iar/MKV58F1M0xxx24_flash.icf" --semihosting --entry
+#        __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** MESSAGES
+***
+
+Error[Li005]: no definition for "GPIO_Pin_Init" [referenced from
+          C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58
+          LEDÀý³Ì\Project\iar\debug\Obj\LQ_LED.o]
+
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__Heap_Handler  = DLMalloc
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The advanced heap was selected because the application calls memory
+allocation functions outside of system library functions, and there
+are calls to deallocation functions in the application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x1000'0000 { ro section .intvec };
+"P1":  place in [from 0x1000'0400 to 0x1000'040f] { section FlashConfig };
+"P2":  place in [from 0x1000'0000 to 0x1000'03ff] |
+                [from 0x1000'0410 to 0x100f'ffff] { ro };
+define block RW { rw };
+"P3":  place in [from 0x4 to 0xffff] |
+                [from 0x2000'0000 to 0x2001'fbff] { block RW };
+define block ZI { zi };
+"P4":  place in [from 0x4 to 0xffff] |
+                [from 0x2000'0000 to 0x2001'fbff] { block ZI };
+define block NCACHE_VAR { section NonCacheable, section NonCacheable.init };
+"P7":  place in [from 0x4 to 0xffff] |
+                [from 0x2000'0000 to 0x2001'fbff] { block NCACHE_VAR };
+define block CSTACK with size = 1K, alignment = 8 { };
+"P6":  place in [from 0x2001'fc00 to 0x2001'ffff] { block CSTACK };
+initialize by copy { rw, section .textrw };
+
+No sections matched the following patterns:
+
+  section NonCacheable       in block NCACHE_VAR
+  section NonCacheable.init  in block NCACHE_VAR
+
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"P3-P4|P7", part 1 of 2:                      0xc
+  RW                                  0x4     0xc  <Block>
+    RW-1                              0x4     0xc  <Init block>
+      .data          inited           0x4     0x4  fsl_clock.o [1]
+      .data          inited           0x8     0x4  fsl_clock.o [1]
+      .data          inited           0xc     0x4  system_MKV58F24.o [1]
+                                   - 0x10     0xc
+
+"P3-P4|P7", part 2 of 2:                    0x110
+  ZI                                 0x10   0x110  <Block>
+    .bss             zero            0x10     0x4  fsl_clock.o [1]
+    .bss             zero            0x14    0x1c  fsl_debug_console.o [1]
+    .bss             zero            0x30     0x4  fsl_debug_console.o [1]
+    .bss             zero            0x34     0xc  fsl_dspi.o [1]
+    .bss             zero            0x40     0x4  fsl_dspi.o [1]
+    .bss             zero            0x44     0x4  fsl_dspi.o [1]
+    .bss             zero            0x48    0x80  fsl_edma.o [1]
+    .bss             zero            0xc8     0x4  fsl_enet.o [1]
+    .bss             zero            0xcc     0x4  fsl_enet.o [1]
+    .bss             zero            0xd0     0x4  fsl_enet.o [1]
+    .bss             zero            0xd4     0x4  fsl_enet.o [1]
+    .bss             zero            0xd8     0x4  fsl_enet.o [1]
+    .bss             zero            0xdc     0xc  fsl_flexcan.o [1]
+    .bss             zero            0xe8     0x4  fsl_flexcan.o [1]
+    .bss             zero            0xec     0x8  fsl_i2c.o [1]
+    .bss             zero            0xf4     0x4  fsl_i2c.o [1]
+    .bss             zero            0xf8     0x4  fsl_i2c.o [1]
+    .bss             zero            0xfc    0x18  fsl_uart.o [1]
+    .bss             zero           0x114     0x4  fsl_uart.o [1]
+    .bss             zero           0x118     0x8  LQ_LED.o [1]
+                                  - 0x120   0x110
+
+"A0":                                       0x400
+  .intvec            ro code  0x1000'0000   0x400  startup_MKV58F24.o [1]
+                            - 0x1000'0400   0x400
+
+"P1":                                        0x10
+  FlashConfig        ro code  0x1000'0400    0x10  startup_MKV58F24.o [1]
+                            - 0x1000'0410    0x10
+
+"P2":                                      0x29c0
+  .text              ro code  0x1000'0410   0x4d0  fsl_clock.o [1]
+  .text              ro code  0x1000'08e0    0x18  fsl_assert.o [1]
+  .text              ro code  0x1000'08f8   0x1a0  fsl_debug_console.o [1]
+  .text              ro code  0x1000'0a98   0x1a8  serial_manager.o [1]
+  .text              ro code  0x1000'0c40    0x86  ABImemcpy.o [4]
+  .text              ro code  0x1000'0cc6    0x3a  zero_init3.o [4]
+  .text              ro code  0x1000'0d00    0x66  ABImemset.o [4]
+  .text              ro code  0x1000'0d66     0x2  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'0d68     0x6  ABImemclr4.o [4]
+  .text              ro code  0x1000'0d6e   0x2d0  fsl_str.o [1]
+  .text              ro code  0x1000'103e     0x2  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'1040    0xd0  serial_port_uart.o [1]
+  .text              ro code  0x1000'1110    0x32  ABImemset48.o [4]
+  .text              ro code  0x1000'1142     0x2  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'1144    0x36  strlen.o [4]
+  .text              ro code  0x1000'117a     0x2  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'117c   0x170  uart_adapter.o [1]
+  .text              ro code  0x1000'12ec   0x3c8  fsl_uart.o [1]
+  .text              ro code  0x1000'16b4   0x460  fsl_edma.o [1]
+  .text              ro code  0x1000'1b14   0x1f8  LQ_LED.o [1]
+  .text              ro code  0x1000'1d0c    0x84  main.o [1]
+  .text              ro code  0x1000'1d90    0x80  pin_mux.o [1]
+  .text              ro code  0x1000'1e10   0x10c  clock_config.o [1]
+  .text              ro code  0x1000'1f1c    0x16  board.o [1]
+  .text              ro code  0x1000'1f32     0x2  startup_MKV58F24.o [1]
+  .rodata            const    0x1000'1f34   0x148  fsl_uart.o [1]
+  .rodata            const    0x1000'207c   0x148  fsl_uart.o [1]
+  .text              ro code  0x1000'21c4    0xce  system_MKV58F24.o [1]
+  .text              ro code  0x1000'2292     0x2  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2294    0xc4  fsl_dspi.o [1]
+  .text              ro code  0x1000'2358    0x9c  fsl_flexcan.o [1]
+  .rodata            const    0x1000'23f4    0x68  fsl_debug_console.o [1]
+  .rodata            const    0x1000'245c    0x68  serial_manager.o [1]
+  .rodata            const    0x1000'24c4    0x68  serial_port_uart.o [1]
+  .rodata            const    0x1000'252c    0x5c  uart_adapter.o [1]
+  .text              ro code  0x1000'2588    0x58  fsl_enet.o [1]
+  .text              ro code  0x1000'25e0    0x58  fsl_i2c.o [1]
+  .rodata            const    0x1000'2638    0x54  fsl_flexcan.o [1]
+  .rodata            const    0x1000'268c    0x50  fsl_clock.o [1]
+  .rodata            const    0x1000'26dc    0x50  fsl_dspi.o [1]
+  .rodata            const    0x1000'272c    0x50  fsl_edma.o [1]
+  .rodata            const    0x1000'277c    0x50  fsl_uart.o [1]
+  .rodata            const    0x1000'27cc    0x48  uart_adapter.o [1]
+  .rodata            const    0x1000'2814    0x2c  fsl_assert.o [1]
+  .text              ro code  0x1000'2840    0x2c  copy_init3.o [4]
+  .rodata            const    0x1000'286c    0x28  fsl_debug_console.o [1]
+  .text              ro code  0x1000'2894    0x28  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'28bc    0x28  data_init.o [4]
+  .rodata            const    0x1000'28e4    0x24  uart_adapter.o [1]
+  .text              ro code  0x1000'2908    0x22  fpinit_M.o [3]
+  .iar.init_table    const    0x1000'292c    0x24  - Linker created -
+  .text              ro code  0x1000'2950     0x2  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2954    0x1e  cmain.o [4]
+  .text              ro code  0x1000'2972     0x4  low_level_init.o [2]
+  .text              ro code  0x1000'2976     0x4  exit.o [2]
+  .text              ro code  0x1000'297a     0x2  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'297c     0xa  cexit.o [4]
+  .text              ro code  0x1000'2986     0x2  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2988    0x14  exit.o [5]
+  .rodata            const    0x1000'299c    0x1c  fsl_uart.o [1]
+  .rodata            const    0x1000'29b8    0x1c  main.o [1]
+  .rodata            const    0x1000'29d4    0x18  fsl_uart.o [1]
+  .rodata            const    0x1000'29ec    0x18  fsl_uart.o [1]
+  .rodata            const    0x1000'2a04    0x18  fsl_uart.o [1]
+  .rodata            const    0x1000'2a1c    0x18  main.o [1]
+  .rodata            const    0x1000'2a34    0x18  main.o [1]
+  .rodata            const    0x1000'2a4c    0x18  main.o [1]
+  .rodata            const    0x1000'2a64    0x18  uart_adapter.o [1]
+  .rodata            const    0x1000'2a7c    0x14  fsl_flexcan.o [1]
+  .rodata            const    0x1000'2a90    0x14  fsl_flexcan.o [1]
+  .rodata            const    0x1000'2aa4    0x14  fsl_flexcan.o [1]
+  .rodata            const    0x1000'2ab8    0x10  fsl_clock.o [1]
+  .rodata            const    0x1000'2ac8    0x10  fsl_debug_console.o [1]
+  .rodata            const    0x1000'2ad8    0x10  fsl_dspi.o [1]
+  .rodata            const    0x1000'2ae8    0x10  fsl_dspi.o [1]
+  .rodata            const    0x1000'2af8    0x10  fsl_dspi.o [1]
+  .rodata            const    0x1000'2b08    0x10  fsl_edma.o [1]
+  .rodata            const    0x1000'2b18    0x10  serial_manager.o [1]
+  .rodata            const    0x1000'2b28    0x10  serial_port_uart.o [1]
+  .rodata            const    0x1000'2b38    0x10  serial_port_uart.o [1]
+  .rodata            const    0x1000'2b48     0xc  clock_config.o [1]
+  .rodata            const    0x1000'2b54     0xc  fsl_clock.o [1]
+  .rodata            const    0x1000'2b60     0xc  fsl_clock.o [1]
+  .rodata            const    0x1000'2b6c     0xc  fsl_debug_console.o [1]
+  .rodata            const    0x1000'2b78     0xc  fsl_edma.o [1]
+  .rodata            const    0x1000'2b84     0xc  serial_manager.o [1]
+  .rodata            const    0x1000'2b90     0xc  serial_manager.o [1]
+  .text              ro code  0x1000'2b9c     0xc  cstartup_M.o [4]
+  Initializer bytes  const    0x1000'2ba8     0xc  <for RW-1> (used: 0x0)
+  .rodata            const    0x1000'2bb4     0x8  clock_config.o [1]
+  .rodata            const    0x1000'2bbc     0x8  clock_config.o [1]
+  .rodata            const    0x1000'2bc4     0x8  fsl_clock.o [1]
+  .rodata            const    0x1000'2bcc     0x8  fsl_debug_console.o [1]
+  .rodata            const    0x1000'2bd4     0x8  fsl_uart.o [1]
+  .rodata            const    0x1000'2bdc     0x8  serial_manager.o [1]
+  .rodata            const    0x1000'2be4     0x8  serial_manager.o [1]
+  .rodata            const    0x1000'2bec     0x8  serial_manager.o [1]
+  .rodata            const    0x1000'2bf4     0x8  serial_manager.o [1]
+  .rodata            const    0x1000'2bfc     0x8  serial_port_uart.o [1]
+  .rodata            const    0x1000'2c04     0x8  serial_port_uart.o [1]
+  .rodata            const    0x1000'2c0c     0x8  uart_adapter.o [1]
+  .rodata            const    0x1000'2c14     0x8  uart_adapter.o [1]
+  .rodata            const    0x1000'2c1c     0x8  uart_adapter.o [1]
+  .rodata            const    0x1000'2c24     0x8  uart_adapter.o [1]
+  .text              ro code  0x1000'2c2c     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2c34     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2c3c     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2c44     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2c4c     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2c54     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2c5c     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2c64     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2c6c     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2c74     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2c7c     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2c84     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2c8c     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2c94     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2c9c     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2ca4     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2cac     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2cb4     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2cbc     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2cc4     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2ccc     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2cd4     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2cdc     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2ce4     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2cec     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2cf4     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2cfc     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2d04     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2d0c     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2d14     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2d1c     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2d24     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2d2c     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2d34     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2d3c     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2d44     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2d4c     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2d54     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2d5c     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2d64     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2d6c     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2d74     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2d7c     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2d84     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2d8c     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2d94     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2d9c     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2da4     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2dac     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2db4     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2dbc     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2dc4     0x8  startup_MKV58F24.o [1]
+  .text              ro code  0x1000'2dcc     0x4  startup_MKV58F24.o [1]
+  .rodata            const    0x1000'2dd0     0x0  zero_init3.o [4]
+  .rodata            const    0x1000'2dd0     0x0  copy_init3.o [4]
+                            - 0x1000'2dd0  0x29c0
+
+"P6":                                       0x400
+  CSTACK                      0x2001'fc00   0x400  <Block>
+    CSTACK           uninit   0x2001'fc00   0x400  <Block tail>
+                            - 0x2002'0000   0x400
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+        0x120       0xffff    0xfee0
+  0x1000'2dd0  0x100f'ffff  0xf'd230
+  0x2000'0000  0x2001'fbff  0x1'fc00
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x110:
+                 0x10  0x110
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0xc:
+          0x1000'2ba8    0xc
+    1 destination range, total size 0xc:
+                  0x4    0xc
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module               ro code  ro data  rw data
+    ------               -------  -------  -------
+command line/config:
+    ----------------------------------------------
+    Total:
+
+C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58 LEDÀý³Ì\Project\iar\debug\Obj: [1]
+    LQ_LED.o                 504                 8
+    board.o                   22
+    clock_config.o           268       28
+    fsl_assert.o              24       44
+    fsl_clock.o            1 232      136       12
+    fsl_debug_console.o      416      180       32
+    fsl_dspi.o               196      128       20
+    fsl_edma.o             1 120      108      128
+    fsl_enet.o                88                20
+    fsl_flexcan.o            156      144       16
+    fsl_i2c.o                 88                16
+    fsl_str.o                720
+    fsl_uart.o               968      844       28
+    main.o                   132      100
+    pin_mux.o                128
+    serial_manager.o         424      176
+    serial_port_uart.o       208      152
+    startup_MKV58F24.o     1 518
+    system_MKV58F24.o        206        4        4
+    uart_adapter.o           368      256
+    ----------------------------------------------
+    Total:                 8 786    2 300      284
+
+dl7M_tlf.a: [2]
+    exit.o                     4
+    low_level_init.o           4
+    ----------------------------------------------
+    Total:                     8
+
+m7M_tls.a: [3]
+    fpinit_M.o                34
+    ----------------------------------------------
+    Total:                    34
+
+rt7M_tl.a: [4]
+    ABImemclr4.o               6
+    ABImemcpy.o              134
+    ABImemset.o              102
+    ABImemset48.o             50
+    cexit.o                   10
+    cmain.o                   30
+    copy_init3.o              44
+    cstartup_M.o              12
+    data_init.o               40
+    strlen.o                  54
+    zero_init3.o              58
+    ----------------------------------------------
+    Total:                   540
+
+shb_l.a: [5]
+    exit.o                    20
+    ----------------------------------------------
+    Total:                    20
+
+    Gaps                       2        2
+    Linker created                     36    1 024
+--------------------------------------------------
+    Grand Total:           9 390    2 338    1 308
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base   0x1000'292c          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x1000'2950          --   Gb  - Linker created -
+?main                   0x1000'2955         Code  Gb  cmain.o [4]
+BOARD_BootClockRUN      0x1000'1e8d   0x5e  Code  Gb  clock_config.o [1]
+BOARD_InitDebugConsole  0x1000'1f1d   0x16  Code  Gb  board.o [1]
+BOARD_InitPins          0x1000'1dbd   0x38  Code  Gb  pin_mux.o [1]
+CAN0_DriverIRQHandler   0x1000'2359   0x26  Code  Gb  fsl_flexcan.o [1]
+CAN1_DriverIRQHandler   0x1000'2381   0x26  Code  Gb  fsl_flexcan.o [1]
+CAN2_DriverIRQHandler   0x1000'23a9   0x26  Code  Gb  fsl_flexcan.o [1]
+CLOCK_BootToPeeMode     0x1000'086d   0x4a  Code  Gb  fsl_clock.o [1]
+CLOCK_CONFIG_EnableTraceDivFrac
+                        0x1000'1e75    0xc  Code  Lc  clock_config.o [1]
+CLOCK_CONFIG_SetFllExtRefDiv
+                        0x1000'1e4b   0x14  Code  Lc  clock_config.o [1]
+CLOCK_CONFIG_SetRmii0Clock
+                        0x1000'1e81    0xc  Code  Lc  clock_config.o [1]
+CLOCK_CONFIG_SetSimSafeDivs
+                        0x1000'1e43    0x8  Code  Lc  clock_config.o [1]
+CLOCK_CONFIG_SetWdogClock
+                        0x1000'1e5f   0x16  Code  Lc  clock_config.o [1]
+CLOCK_EnableClock       0x1000'12ed   0x16  Code  Lc  fsl_uart.o [1]
+CLOCK_EnableClock       0x1000'1d91   0x14  Code  Lc  pin_mux.o [1]
+CLOCK_EnablePll0        0x1000'0729   0x58  Code  Gb  fsl_clock.o [1]
+CLOCK_GetBusClkFreq     0x1000'0573   0x18  Code  Gb  fsl_clock.o [1]
+CLOCK_GetCoreSysClkFreq
+                        0x1000'058b   0x16  Code  Gb  fsl_clock.o [1]
+CLOCK_GetFastPeriphClkFreq
+                        0x1000'052b   0x18  Code  Gb  fsl_clock.o [1]
+CLOCK_GetFlashClkFreq   0x1000'0543   0x18  Code  Gb  fsl_clock.o [1]
+CLOCK_GetFlexBusClkFreq
+                        0x1000'055b   0x18  Code  Gb  fsl_clock.o [1]
+CLOCK_GetFllExtRefClkFreq
+                        0x1000'046f   0x50  Code  Lc  fsl_clock.o [1]
+CLOCK_GetFllFreq        0x1000'05f3   0x44  Code  Gb  fsl_clock.o [1]
+CLOCK_GetFllFreq::fllFactorTable
+                        0x1000'2ab8   0x10  Data  Lc  fsl_clock.o [1]
+CLOCK_GetFllRefClkFreq  0x1000'04e5   0x20  Code  Lc  fsl_clock.o [1]
+CLOCK_GetInternalRefClkSelectFreq
+                        0x1000'04bf   0x26  Code  Lc  fsl_clock.o [1]
+CLOCK_GetMcgExtClkFreq  0x1000'044d   0x22  Code  Lc  fsl_clock.o [1]
+CLOCK_GetOscRangeFromFreq
+                        0x1000'050d   0x1e  Code  Lc  fsl_clock.o [1]
+CLOCK_GetOutClkFreq     0x1000'05bb   0x38  Code  Gb  fsl_clock.o [1]
+CLOCK_GetPll0Freq       0x1000'0637   0x54  Code  Gb  fsl_clock.o [1]
+CLOCK_GetPll0RefFreq    0x1000'0505    0x8  Code  Lc  fsl_clock.o [1]
+CLOCK_InitOsc0          0x1000'0781   0x50  Code  Gb  fsl_clock.o [1]
+CLOCK_SetClkOutClock    0x1000'1e31    0xc  Code  Lc  clock_config.o [1]
+CLOCK_SetEr32kClock     0x1000'0411    0xe  Code  Lc  fsl_clock.o [1]
+CLOCK_SetExternalRefClkConfig
+                        0x1000'068b    0x4  Code  Gb  fsl_clock.o [1]
+CLOCK_SetInternalRefClkConfig
+                        0x1000'068f   0x9a  Code  Gb  fsl_clock.o [1]
+CLOCK_SetPbeMode        0x1000'07ed   0x68  Code  Gb  fsl_clock.o [1]
+CLOCK_SetPllFllSelClock
+                        0x1000'041f    0xe  Code  Lc  fsl_clock.o [1]
+CLOCK_SetSimConfig      0x1000'05a1   0x1a  Code  Gb  fsl_clock.o [1]
+CLOCK_SetTraceClock     0x1000'1e11   0x20  Code  Lc  clock_config.o [1]
+CLOCK_SetXtal0Freq      0x1000'1e3d    0x6  Code  Lc  clock_config.o [1]
+CSTACK$$Base            0x2001'fc00          --   Gb  - Linker created -
+CSTACK$$Limit           0x2002'0000          --   Gb  - Linker created -
+ConvertRadixNumToString
+                        0x1000'0d6f   0x8a  Code  Lc  fsl_str.o [1]
+DMA0_DMA16_DriverIRQHandler
+                        0x1000'17e9   0x34  Code  Gb  fsl_edma.o [1]
+DMA10_DMA26_DriverIRQHandler
+                        0x1000'19ed   0x30  Code  Gb  fsl_edma.o [1]
+DMA11_DMA27_DriverIRQHandler
+                        0x1000'1a1d   0x30  Code  Gb  fsl_edma.o [1]
+DMA12_DMA28_DriverIRQHandler
+                        0x1000'1a4d   0x2e  Code  Gb  fsl_edma.o [1]
+DMA13_DMA29_DriverIRQHandler
+                        0x1000'1a7b   0x2e  Code  Gb  fsl_edma.o [1]
+DMA14_DMA30_DriverIRQHandler
+                        0x1000'1aa9   0x2e  Code  Gb  fsl_edma.o [1]
+DMA15_DMA31_DriverIRQHandler
+                        0x1000'1ad7   0x2e  Code  Gb  fsl_edma.o [1]
+DMA1_DMA17_DriverIRQHandler
+                        0x1000'181f   0x34  Code  Gb  fsl_edma.o [1]
+DMA2_DMA18_DriverIRQHandler
+                        0x1000'1853   0x34  Code  Gb  fsl_edma.o [1]
+DMA3_DMA19_DriverIRQHandler
+                        0x1000'1887   0x34  Code  Gb  fsl_edma.o [1]
+DMA4_DMA20_DriverIRQHandler
+                        0x1000'18bb   0x34  Code  Gb  fsl_edma.o [1]
+DMA5_DMA21_DriverIRQHandler
+                        0x1000'18ef   0x34  Code  Gb  fsl_edma.o [1]
+DMA6_DMA22_DriverIRQHandler
+                        0x1000'1923   0x34  Code  Gb  fsl_edma.o [1]
+DMA7_DMA23_DriverIRQHandler
+                        0x1000'1957   0x34  Code  Gb  fsl_edma.o [1]
+DMA8_DMA24_DriverIRQHandler
+                        0x1000'198b   0x32  Code  Gb  fsl_edma.o [1]
+DMA9_DMA25_DriverIRQHandler
+                        0x1000'19bd   0x30  Code  Gb  fsl_edma.o [1]
+DSPI_CommonIRQHandler   0x1000'229d   0x28  Code  Lc  fsl_dspi.o [1]
+DSPI_IsMaster           0x1000'2295    0x8  Code  Lc  fsl_dspi.o [1]
+DbgConsole_Init         0x1000'097f   0xc6  Code  Gb  fsl_debug_console.o [1]
+DbgConsole_PrintCallback
+                        0x1000'0941   0x3e  Code  Lc  fsl_debug_console.o [1]
+DbgConsole_Printf       0x1000'0a45   0x30  Code  Gb  fsl_debug_console.o [1]
+DbgConsole_SendData     0x1000'08f9   0x48  Code  Gb  fsl_debug_console.o [1]
+EDMA_GetChannelStatusFlags
+                        0x1000'16b5   0x4a  Code  Gb  fsl_edma.o [1]
+EDMA_HandleIRQ          0x1000'1709   0xe0  Code  Gb  fsl_edma.o [1]
+ENET_1588_Timer_IRQHandler
+                        0x1000'25b9   0x10  Code  Gb  fsl_enet.o [1]
+ENET_Error_IRQHandler   0x1000'25a9   0x10  Code  Gb  fsl_enet.o [1]
+ENET_Receive_IRQHandler
+                        0x1000'2599   0x10  Code  Gb  fsl_enet.o [1]
+ENET_Transmit_IRQHandler
+                        0x1000'2589   0x10  Code  Gb  fsl_enet.o [1]
+GPIO_PinWrite           0x1000'1b15   0x1a  Code  Lc  LQ_LED.o [1]
+HAL_UartGetStatus       0x1000'117d    0xe  Code  Lc  uart_adapter.o [1]
+HAL_UartInit            0x1000'118b   0xe6  Code  Gb  uart_adapter.o [1]
+HAL_UartSendBlocking    0x1000'1271   0x58  Code  Gb  uart_adapter.o [1]
+I2C0_DriverIRQHandler   0x1000'260d    0xe  Code  Gb  fsl_i2c.o [1]
+I2C1_DriverIRQHandler   0x1000'261b    0xe  Code  Gb  fsl_i2c.o [1]
+I2C_TransferCommonIRQHandler
+                        0x1000'25e1   0x26  Code  Lc  fsl_i2c.o [1]
+LED_Init                0x1000'1b2f   0x40  Code  Gb  LQ_LED.o [1]
+LED_OFF                 0x1000'1bd3   0x64  Code  Gb  LQ_LED.o [1]
+LED_ON                  0x1000'1b6f   0x64  Code  Gb  LQ_LED.o [1]
+LED_Reverse             0x1000'1c37   0x36  Code  Gb  LQ_LED.o [1]
+LED_Reverse::led_state        0x118    0x8  Data  Lc  LQ_LED.o [1]
+OSC_SetCapLoad          0x1000'0441    0xc  Code  Lc  fsl_clock.o [1]
+OSC_SetExtRefClkConfig  0x1000'042d   0x14  Code  Lc  fsl_clock.o [1]
+PORT_SetPinMux          0x1000'1da5   0x18  Code  Lc  pin_mux.o [1]
+RW$$Base                        0x4          --   Gb  - Linker created -
+RW$$Limit                      0x10          --   Gb  - Linker created -
+Region$$Table$$Base     0x1000'292c          --   Gb  - Linker created -
+Region$$Table$$Limit    0x1000'2950          --   Gb  - Linker created -
+SCB_EnableDCache        0x1000'21ef   0x52  Code  Lc  system_MKV58F24.o [1]
+SCB_EnableICache        0x1000'21c5   0x2a  Code  Lc  system_MKV58F24.o [1]
+SPI0_DriverIRQHandler   0x1000'22c5   0x24  Code  Gb  fsl_dspi.o [1]
+SPI1_DriverIRQHandler   0x1000'22e9   0x24  Code  Gb  fsl_dspi.o [1]
+SPI2_DriverIRQHandler   0x1000'230d   0x24  Code  Gb  fsl_dspi.o [1]
+SerialManager_Init      0x1000'0b27   0x5c  Code  Gb  serial_manager.o [1]
+SerialManager_OpenReadHandle
+                        0x1000'0bc9   0x4e  Code  Gb  serial_manager.o [1]
+SerialManager_OpenWriteHandle
+                        0x1000'0b83   0x46  Code  Gb  serial_manager.o [1]
+SerialManager_StartWriting
+                        0x1000'0a99   0x26  Code  Lc  serial_manager.o [1]
+SerialManager_Write     0x1000'0abf   0x68  Code  Lc  serial_manager.o [1]
+SerialManager_WriteBlocking
+                        0x1000'0c17    0x8  Code  Gb  serial_manager.o [1]
+Serial_UartInit         0x1000'1041   0x6a  Code  Gb  serial_port_uart.o [1]
+Serial_UartWrite        0x1000'10ab   0x50  Code  Gb  serial_port_uart.o [1]
+StrFormatPrintf         0x1000'0df9  0x246  Code  Gb  fsl_str.o [1]
+SystemCoreClock                 0xc    0x4  Data  Gb  system_MKV58F24.o [1]
+SystemInit              0x1000'2241   0x30  Code  Gb  system_MKV58F24.o [1]
+Test_LED                0x1000'1c81   0x8c  Code  Gb  LQ_LED.o [1]
+UART0_DriverIRQHandler  0x1000'15fd   0x10  Code  Gb  fsl_uart.o [1]
+UART0_RX_TX_DriverIRQHandler
+                        0x1000'160d    0x8  Code  Gb  fsl_uart.o [1]
+UART1_DriverIRQHandler  0x1000'1615   0x10  Code  Gb  fsl_uart.o [1]
+UART1_RX_TX_DriverIRQHandler
+                        0x1000'1625    0x8  Code  Gb  fsl_uart.o [1]
+UART2_DriverIRQHandler  0x1000'162d   0x10  Code  Gb  fsl_uart.o [1]
+UART2_RX_TX_DriverIRQHandler
+                        0x1000'163d    0x8  Code  Gb  fsl_uart.o [1]
+UART3_DriverIRQHandler  0x1000'1645   0x10  Code  Gb  fsl_uart.o [1]
+UART3_RX_TX_DriverIRQHandler
+                        0x1000'1655    0x8  Code  Gb  fsl_uart.o [1]
+UART4_DriverIRQHandler  0x1000'165d   0x10  Code  Gb  fsl_uart.o [1]
+UART4_RX_TX_DriverIRQHandler
+                        0x1000'166d    0x8  Code  Gb  fsl_uart.o [1]
+UART5_DriverIRQHandler  0x1000'1675   0x10  Code  Gb  fsl_uart.o [1]
+UART5_RX_TX_DriverIRQHandler
+                        0x1000'16ad    0x8  Code  Gb  fsl_uart.o [1]
+UART_GetDefaultConfig   0x1000'1557   0x54  Code  Gb  fsl_uart.o [1]
+UART_GetInstance        0x1000'1303   0x34  Code  Gb  fsl_uart.o [1]
+UART_Init               0x1000'1337  0x220  Code  Gb  fsl_uart.o [1]
+UART_WriteBlocking      0x1000'15ab   0x18  Code  Gb  fsl_uart.o [1]
+ZI$$Base                       0x10          --   Gb  - Linker created -
+ZI$$Limit                     0x120          --   Gb  - Linker created -
+__Vectors               0x1000'0000          --   Gb  startup_MKV58F24.o [1]
+__Vectors_End           0x1000'0400         Data  Gb  startup_MKV58F24.o [1]
+__Vectors_Size {Abs}          0x400          --   Gb  startup_MKV58F24.o [1]
+__aeabi_assert          0x1000'08e1   0x18  Code  Gb  fsl_assert.o [1]
+__aeabi_memclr4         0x1000'0d69         Code  Gb  ABImemclr4.o [4]
+__aeabi_memcpy4         0x1000'0c41         Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy8         0x1000'0c41         Code  Gb  ABImemcpy.o [4]
+__aeabi_memset          0x1000'0d01         Code  Gb  ABImemset.o [4]
+__cmain                 0x1000'2955         Code  Gb  cmain.o [4]
+__exit                  0x1000'2989   0x14  Code  Gb  exit.o [5]
+__iar_Memset            0x1000'0d01         Code  Gb  ABImemset.o [4]
+__iar_Memset4_word      0x1000'1111         Code  Gb  ABImemset48.o [4]
+__iar_Memset8_word      0x1000'1111         Code  Gb  ABImemset48.o [4]
+__iar_Memset_word       0x1000'0d09         Code  Gb  ABImemset.o [4]
+__iar_copy_init3        0x1000'2841   0x2c  Code  Gb  copy_init3.o [4]
+__iar_data_init3        0x1000'28bd   0x28  Code  Gb  data_init.o [4]
+__iar_init_vfp          0x1000'2909         Code  Gb  fpinit_M.o [3]
+__iar_program_start     0x1000'2b9d         Code  Gb  cstartup_M.o [4]
+__iar_zero_init3        0x1000'0cc7   0x3a  Code  Gb  zero_init3.o [4]
+__low_level_init        0x1000'2973    0x4  Code  Gb  low_level_init.o [2]
+__vector_table          0x1000'0000         Data  Gb  startup_MKV58F24.o [1]
+__vector_table_0x1c     0x1000'001c         Data  Gb  startup_MKV58F24.o [1]
+_call_main              0x1000'2961         Code  Gb  cmain.o [4]
+_exit                   0x1000'297d         Code  Gb  cexit.o [4]
+_main                   0x1000'296f         Code  Gb  cmain.o [4]
+delayms                 0x1000'1d0d   0x2c  Code  Gb  main.o [1]
+exit                    0x1000'2977    0x4  Code  Gb  exit.o [2]
+g_dspiHandle                   0x34    0xc  Data  Lc  fsl_dspi.o [1]
+g_serialHandle                 0x30    0x4  Data  Gb  fsl_debug_console.o [1]
+g_xtal0Freq                    0x10    0x4  Data  Gb  fsl_clock.o [1]
+main                    0x1000'1d39   0x46  Code  Gb  main.o [1]
+mcgConfig_BOARD_BootClockRUN
+                        0x1000'2b48    0xc  Data  Gb  clock_config.o [1]
+oscConfig_BOARD_BootClockRUN
+                        0x1000'2bbc    0x8  Data  Gb  clock_config.o [1]
+s_EDMAHandle                   0x48   0x80  Data  Lc  fsl_edma.o [1]
+s_ENETHandle                   0xc8    0x4  Data  Lc  fsl_enet.o [1]
+s_UartAdapterBase       0x1000'2a64   0x18  Data  Lc  uart_adapter.o [1]
+s_debugConsoleState            0x14   0x1c  Data  Lc  fsl_debug_console.o [1]
+s_dspiMasterIsr                0x40    0x4  Data  Lc  fsl_dspi.o [1]
+s_dspiSlaveIsr                 0x44    0x4  Data  Lc  fsl_dspi.o [1]
+s_enetErrIsr                   0xd4    0x4  Data  Lc  fsl_enet.o [1]
+s_enetRxIsr                    0xd0    0x4  Data  Lc  fsl_enet.o [1]
+s_enetTsIsr                    0xd8    0x4  Data  Lc  fsl_enet.o [1]
+s_enetTxIsr                    0xcc    0x4  Data  Lc  fsl_enet.o [1]
+s_fastIrcFreq                   0x8    0x4  Data  Lc  fsl_clock.o [1]
+s_flexcanHandle                0xdc    0xc  Data  Lc  fsl_flexcan.o [1]
+s_flexcanIsr                   0xe8    0x4  Data  Lc  fsl_flexcan.o [1]
+s_i2cHandle                    0xec    0x8  Data  Lc  fsl_i2c.o [1]
+s_i2cMasterIsr                 0xf4    0x4  Data  Lc  fsl_i2c.o [1]
+s_i2cSlaveIsr                  0xf8    0x4  Data  Lc  fsl_i2c.o [1]
+s_slowIrcFreq                   0x4    0x4  Data  Lc  fsl_clock.o [1]
+s_uartBases             0x1000'29ec   0x18  Data  Lc  fsl_uart.o [1]
+s_uartClock             0x1000'2a04   0x18  Data  Lc  fsl_uart.o [1]
+s_uartHandle                   0xfc   0x18  Data  Lc  fsl_uart.o [1]
+s_uartIsr                     0x114    0x4  Data  Lc  fsl_uart.o [1]
+simConfig_BOARD_BootClockRUN
+                        0x1000'2bb4    0x8  Data  Gb  clock_config.o [1]
+strlen                  0x1000'1145         Code  Gb  strlen.o [4]
+
+
+[1] = C:\Users\17679\Desktop\KV58\1.ÁúÇñKV58 LEDÀý³Ì\Project\iar\debug\Obj
+[2] = dl7M_tlf.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  9 390 bytes of readonly  code memory
+  2 338 bytes of readonly  data memory
+  1 308 bytes of readwrite data memory
+
+Errors: 1
+Warnings: none
