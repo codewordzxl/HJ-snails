@@ -1,0 +1,15 @@
+"D:\IAR__ARM\arm\bin\armproc.dll" 
+
+"D:\IAR__ARM\arm\bin\armjlink2.dll" 
+
+"D:\桌面\HJ-snails\zxl_8.19\Project\iar\debug\Exe\pflash.out" 
+
+--plugin="D:\IAR__ARM\arm\bin\armbat.dll" 
+
+--device_macro="D:\IAR__ARM\arm\config\debugger\NXP\KV5x.dmac" 
+
+--flash_loader="D:\IAR__ARM\arm\config\flashloader\NXP\FlashKV5xF1M0.board" 
+
+
+
+
